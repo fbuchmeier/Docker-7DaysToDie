@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 rootDir=$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")
 scriptsDir="${rootDir}/scripts"
     
