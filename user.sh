@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -eu
+set -x
 
             # Print info
             echo "
